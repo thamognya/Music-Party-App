@@ -1,12 +1,16 @@
 {
   "name": "frontend",
   "version": "0.0.1",
-  "author": "",
-  "license": "ISC",
+  "author": "Thamognya Kodi <contact@thamognya.com>",
+  "license": "AGPL-3.0-or-later",
   "description": "The frontend source of the application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "prettier" : "prettier --write '**/*.{js,jsx,ts,tsx,md,css,scss,sass,py,yml,json,html,mdx,json,rs,go,cpp,c,c++}'",
+    "eject": "react-scripts eject"
   },
   "keywords": [],
   "devDependencies": {
